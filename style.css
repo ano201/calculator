@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #1A1A21;
+}
+main{
+  max-width: 600px;
+  margin: auto;
+  border: 7px solid #5A5A5A;
+  padding: 5%;
+  margin-top: 20%;
+}
+.display{
+  margin-bottom: 10%;
+}
+#display{
+  width: 99%;
+  height: 120px;
+  border: none;
+  background-color: #5A5A5A;
+  font-weight: bolder;
+  font-size: 70px;
+  color: black;
+  text-align: right;
+  padding: 0 2%;
+}
+button{
+  font-size: 50px;
+  font-weight: bolder;
+  background-color: white;
+  border-color: #5A5A5AF7;
+  padding: 30%;
+}
+.button-list{
+  display: grid;
+  Grid-gap: 50px;
+}
+.number{
+  grid-column: 1 / span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  Grid-gap: 50px;
+}
+.operator{
+  grid-column: 4;
+  display: grid;
+  grid-template-columns: repeat(1);
+  Grid-gap: 50px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Calculator</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <section>
+      
+    </section>
+    <section class="cal-main-body">
+      <div class="display">
+        <input type="text" value="0" id="display" disabled/>
+      </div>
+      <div class="button-list">
+        <div class="number">
+          <button onclick="calculator(7)">7</button>
+          <button onclick="calculator(8)">8</button>
+          <button onclick="calculator(9)">9</button>
+          <button onclick="calculator(4)">4</button>
+          <button onclick="calculator(5)">5</button>
+          <button onclick="calculator(6)">6</button>
+          <button onclick="calculator(1)">1</button>
+          <button onclick="calculator(2)">2</button>
+          <button onclick="calculator(3)">3</button>
+          <button onclick="clearAll(0)">C</button>
+          <button onclick="calculator(0)">0</button>
+          <button onclick="evaluation()">=</button>
+        </div>
+        <div class="operator">
+          <button onclick="calculator('/')">÷</button>
+          <button onclick="calculator('*')">*</button>
+          <button onclick="calculator('-')">-</button>
+          <button onclick="calculator('+')">+</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  
+  <script src="main.js"></script>
+</body>
+</html>
