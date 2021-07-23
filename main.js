@@ -16,3 +16,5 @@ function evaluation(){
 function clearAll(newNumber) {
   display.value = newNumber;
 }
+
+//----time and mode button

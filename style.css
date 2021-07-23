@@ -14,7 +14,7 @@ main{
   margin-bottom: 10%;
 }
 #display{
-  width: 99%;
+  width: 96%;
   height: 120px;
   border: none;
   background-color: #5A5A5A;
@@ -46,4 +46,30 @@ button{
   display: grid;
   grid-template-columns: repeat(1);
   Grid-gap: 50px;
+}
+
+/*------b4 main sec-------*/
+.head-table{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+.mode{
+  color: white;
+  width: 20%;
+  border-radius: 30px;
+  background-color: #15161D;
+}
+.dot{
+  width:40%;
+  height: 50px;
+  background: white;
+  border-radius: 100%;
+  position: relative;
+  transition: 1s;
+}
+#time{
+  height: 50px;
+  background-color: #5A5A5A;
+  border: none;
 }
