@@ -25,7 +25,7 @@ const main = document.getElementById("main");
 function mode() {
   if (dotBtn.style.left == 0) {
     dotBtn.style.backgroundColor = "red";
-    dotBtn.style.left = "65px";
+    dotBtn.style.left = "60%";
     main.style.backgroundColor = "white";
   } else {
     location.reload(true);
@@ -35,9 +35,9 @@ function mode() {
 
 //-----time
 
-const display = document.getElementById("time");
+const timeDisplay = document.getElementById("time");
 const time = new Date();
 const hours = time.getHours();
 const minutes = time.getMinutes();
 
-display.value = hours + " : " + minutes;
+timeDisplay.value = hours + " : " + minutes;
