@@ -31,3 +31,13 @@ function mode() {
     location.reload(true);
   }
 }
+
+
+//-----time
+
+const display = document.getElementById("time");
+const time = new Date();
+const hours = time.getHours();
+const minutes = time.getMinutes();
+
+display.value = hours + " : " + minutes;
