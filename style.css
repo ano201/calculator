@@ -68,7 +68,6 @@ button{
   background: white;
   border-radius: 100%;
   position: relative;
-  transition-duration: 2s;
 }
 #time{
   height: 50px;
