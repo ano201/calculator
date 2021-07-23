@@ -1,6 +1,8 @@
 *{
   margin: 0;
   padding: 0;
+}
+body{
   background-color: #1A1A21;
 }
 main{
@@ -60,13 +62,13 @@ button{
   border-radius: 30px;
   background-color: #15161D;
 }
-.dot{
+#dot{
   width:40%;
   height: 50px;
   background: white;
   border-radius: 100%;
   position: relative;
-  transition: 1s;
+  transition-duration: 2s;
 }
 #time{
   height: 50px;
