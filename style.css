@@ -75,5 +75,6 @@ button{
   text-align: center;
   background-color: #5A5A5A;
   border: none;
-  font-size: 50px;
+  font-size: 40px;
+  color: black;
 }
